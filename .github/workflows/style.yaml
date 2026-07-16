@@ -39,7 +39,7 @@ jobs:
           go-version-file: './go.mod'
           check-latest: true
 
-      - uses: chainguard-dev/actions/gofmt@5f020827ba80ff5d64d45116542d0c733e8e7e71 # v1.6.23
+      - uses: chainguard-dev/actions/gofmt@4d37df0d85a91f619edc34a8803323033cdcb124 # v1.6.27
         with:
           args: -s
 
