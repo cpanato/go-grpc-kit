@@ -66,7 +66,7 @@ jobs:
           check-latest: true
           cache: false
 
-      - uses: chainguard-dev/actions/goimports@84b1be4c638f12d4256ddddef17af98853b6d0d9 # v1.6.40
+      - uses: chainguard-dev/actions/goimports@794a2c44abbbd7b3a186db97b359270e4105448f # v1.8.0
 
   golangci-lint:
     name: golangci-lint
